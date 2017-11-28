@@ -1,0 +1,16 @@
+{
+  "name": "jwks-jwt-provider",
+  "version": "1.0.0",
+  "description": "Simple service to serve JWKS & JWT (Use for testing)",
+  "main": "index.js",
+  "repository": "git@github.com:BrandwatchLtd/jwks-jwt-provider.git",
+  "author": "Fabien O'Carroll <fabien@brandwatch.com>",
+  "license": "MIT",
+  "dependencies": {
+    "concat-stream": "1.6.0",
+    "jsonwebtoken": "8.1.0"
+  },
+  "devDependencies": {
+    "prettier": "1.8.2"
+  }
+}
