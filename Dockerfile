@@ -1,6 +1,6 @@
-FROM node:6-alpine
+FROM node:8-alpine
 
-RUN apk add --no-cache openssl
+RUN apk add --no-cache openssl curl
 
 WORKDIR /usr/bin
 
@@ -21,5 +21,9 @@ COPY package.json yarn.lock ./
 RUN yarn install --non-interactive && yarn cache clean
 
 COPY index.js ./
+
+EXPOSE 8088
+
+HEALTHCHECK --start-period=5s --interval=5s CMD curl -sf http://localhost:8088 > /dev/null
 
 CMD ["jwks-jwt"]
