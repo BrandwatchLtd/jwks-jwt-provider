@@ -8,7 +8,8 @@
   "license": "MIT",
   "dependencies": {
     "concat-stream": "1.6.0",
-    "jsonwebtoken": "8.1.0"
+    "jsonwebtoken": "8.1.0",
+    "uuid-random": "1.3.2"
   },
   "devDependencies": {
     "prettier": "1.8.2"
