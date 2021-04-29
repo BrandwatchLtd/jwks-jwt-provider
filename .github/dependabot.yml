@@ -1,0 +1,16 @@
+version: 2
+registries:
+  npm-registry-artifactory-brandwatch-com-artifactory-api-npm-npm:
+    type: npm-registry
+    url: https://artifactory.brandwatch.com/artifactory/api/npm/npm/
+    username: "${{secrets.NPM_REGISTRY_ARTIFACTORY_BRANDWATCH_COM_ARTIFACTORY_API_NPM_NPM_USERNAME}}"
+    password: "${{secrets.NPM_REGISTRY_ARTIFACTORY_BRANDWATCH_COM_ARTIFACTORY_API_NPM_NPM_PASSWORD}}"
+
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  registries:
+  - npm-registry-artifactory-brandwatch-com-artifactory-api-npm-npm
