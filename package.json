@@ -7,7 +7,7 @@
   "author": "Fabien O'Carroll <fabien@brandwatch.com>",
   "license": "MIT",
   "dependencies": {
-    "concat-stream": "1.6.0",
+    "concat-stream": "2.0.0",
     "jsonwebtoken": "8.1.0"
   },
   "devDependencies": {
