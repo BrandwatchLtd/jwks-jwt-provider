@@ -101,9 +101,9 @@ ms@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
-prettier@^1.8.2:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.8.2.tgz#bff83e7fd573933c607875e5ba3abbdffb96aeb8"
+prettier@2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.0.tgz#a6370e2d4594e093270419d9cc47f7670488f893"
 
 process-nextick-args@~1.0.6:
   version "1.0.7"
