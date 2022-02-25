@@ -59,6 +59,9 @@ function createJWTFromReq(req, key) {
   return new Promise(function(resolve, reject) {
     req.pipe(
       concat(function(post_data) {
+        if(!post_data || post_data.length === 0) {
+          return resolve({});
+        }
         resolve(JSON.parse(post_data));
       })
     );
