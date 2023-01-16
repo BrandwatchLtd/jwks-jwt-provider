@@ -11,6 +11,6 @@
     "jsonwebtoken": "9.0.0"
   },
   "devDependencies": {
-    "prettier": "1.8.2"
+    "prettier": "2.8.3"
   }
 }
